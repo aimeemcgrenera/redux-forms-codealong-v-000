@@ -22,5 +22,12 @@ handleChange(event) {
     text: event.target.value
   });
 };
+
+constructor() {
+  super();
+  this.state = {
+    text: '',
+  };
+}
  
 export default CreateTodo;
